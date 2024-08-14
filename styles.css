@@ -1,0 +1,113 @@
+@font-face {
+  font-family: havifont;
+  src: url(HelveticaNowText-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+  color-scheme: light dark;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gileroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: light-dark(#fff, #444);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: light-dark (#444, #fff);
+}
+
+#main {
+  height: 35vw;
+  width: 60%;
+  background-color: #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(111, 27, 27, 0.859);
+}
+
+#boxarea {
+  flex-wrap: wrap;
+  background-color: #e2e2e2;
+  height: 65%;
+  width: 35%;
+  box-shadow: 0 3px 10px rgba(111, 27, 27, 0.859);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#boxarea img {
+  border: 3px solid black;
+  height: 9vw;
+  margin-top: -26px;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(104, 104, 104, 0.859);
+  padding: 3px 0;
+  position: relative;
+  left: 21%;
+  transform: translateX(-52%);
+}
+
+h2 {
+  font-size: 1.5vw;
+  margin-top: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  text-shadow: 0 3px 10px rgba(119, 119, 119, 0.588);
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media i {
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 0 9px;
+  cursor: pointer;
+  transition: background-color 1s linear;
+}
+
+.social-media i:hover {
+  background-color: #56565691;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
